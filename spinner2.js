@@ -1,4 +1,4 @@
-// Re-factoring Spinner 1:
+// Re-factore Spinner 1:
 
 const cursorSpin = function() {
   const sequence = ["\r|  ", "\r/  ", "\r-  ", "\r\\  ", "\r|  ", "\r/  ", "\r-  ", "\r\\  ", "\r|  ", "\n"];
@@ -9,8 +9,6 @@ const cursorSpin = function() {
       process.stdout.write(sequence[i]);
     }, delay);
   }
-  // setTimeout(() => {
-  //   console.log("");
-  // }, delay);
 };
+
 cursorSpin();
